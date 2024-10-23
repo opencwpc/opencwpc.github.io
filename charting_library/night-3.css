@@ -1,0 +1,82 @@
+:root:not(.theme-dark) {
+    --tv-color-platform-background: #fff;    /*设置所有元素的页面的主要颜色*/
+    --tv-color-pane-background:#fff;     /*工具栏背景色*/
+    --tv-color-pane-background-secondary: #F5F5F5;       /*工具栏的其他背景色（例如，右侧有打开的工具栏时）*/
+    --tv-color-toolbar-button-background-hover: #F5F5F5;     /*工具栏按钮的悬停效果颜色*/
+    --tv-color-toolbar-button-background-secondary-hover: #24AE8F;      /*工具栏按钮的其他悬停颜色（例如，右侧有打开的工具栏时）*/
+    --tv-color-toolbar-button-background-expanded: #F5F5F5;      /*右侧工具栏上活动按钮的悬停效果颜色*/
+    --tv-color-toolbar-button-text: #333333;       /*工具栏按钮的文本和图标颜色*/
+    --tv-color-toolbar-button-text-hover: #333333;     /*将鼠标悬停在工具栏按钮上时，文本和图标的颜色*/
+    --tv-color-toolbar-button-text-active: #286DFF;     /*活动工具栏按钮的文本和图标颜色*/
+    --tv-color-toolbar-button-text-active-hover: #286DFF;       /* 将鼠标悬停在它们上方时，工具栏按钮的文本和图标颜色*/
+    --tv-color-item-active-text: rgb(6, 6, 255);        /*切换工具栏按钮的文本颜色（例如，“磁铁模式”，“锁定所有图形”）*/
+    --tv-color-toolbar-toggle-button-background-active: #37A6EF;        /*切换工具栏按钮的文本颜色（例如，“磁铁模式”，“锁定所有图形”）*/
+    --tv-color-toolbar-toggle-button-background-active-hover: #37A6EF;      /*将切换工具栏按钮悬停在其上时填充颜色（例如，“磁铁模式”，“锁定所有图形”）*/
+}
+
+.theme-dark:root {
+    --custom-bg-1-color: #0A0B0D;
+    --tv-color-platform-background: var(--custom-bg-1-color);
+    --tv-color-pane-background: var(--custom-bg-1-color);
+    --tv-color-pane-background-secondary: var(--custom-bg-1-color);
+    --tv-color-toolbar-button-background-hover: var(--custom-bg-1-color);
+    --tv-color-toolbar-button-background-secondary-hover: #24AE8F;
+    --tv-color-toolbar-button-background-expanded: var(--custom-bg-1-color);
+    --tv-color-toolbar-button-text: #c8c7d8;
+    --tv-color-toolbar-button-text-hover: #ffffff;
+    --tv-color-toolbar-button-text-active: #286DFF;
+    --tv-color-toolbar-button-text-active-hover: rgba(90, 102, 249,0.7);
+    --tv-color-item-active-text: rgb(6, 255, 6);
+    --tv-color-toolbar-toggle-button-background-active: #5a66f9;
+    --tv-color-toolbar-toggle-button-background-active-hover: #5a66f9;
+}
+.customButton--jqJTfH5{
+   padding: 2px;
+}
+.value-gwXludjS {
+  font-size: 12px;
+}
+.toolbar-qqNP9X6e {
+  font-size: 12px;
+}
+.group-MBOVGQRI:nth-child(2) {
+  margin-left: 10px;
+}
+
+/* :not(.theme-dark) .titleWrapper-l31H9iuA {
+  color: #333333 !important;
+} */
+
+
+@font-face {
+  font-family: 'DINPro-Medium';
+  src: url('DINPro-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans-Medium';
+  src: url('IBMPlexSans-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'DINPro-Medium', 'IBMPlexSans-Medium', 'Poppins-Regular', 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
+.text-hF57_4zZ{
+  white-space: pre-line;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px 20px;
+}
+.chart-gui-wrapper img{
+  width: 20%
+}
+.wrap-n5bmFxyX{
+
+}
+.customButton-qqNP9X6e{
+  display: flex
+}
