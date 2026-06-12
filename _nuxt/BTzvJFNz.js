@@ -1,0 +1,1 @@
+import{ck as a,D as e,F as n}from"./DENK0YdQ.js";function o(o,s){const i=a(),t=n(null),l=s||3e5;e(i,a=>{if("hidden"===a&&(t.value=Date.now()),"visible"===a){Date.now()-(t.value||0)>l&&o()}})}export{o as u};
