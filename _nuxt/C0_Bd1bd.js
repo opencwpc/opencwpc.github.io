@@ -1,0 +1,1 @@
+import{cl as a,D as e,F as n}from"./D4W2hCIO.js";function o(o,s){const i=a(),l=n(null),t=s||3e5;e(i,a=>{if("hidden"===a&&(l.value=Date.now()),"visible"===a){Date.now()-(l.value||0)>t&&o()}})}export{o as u};
