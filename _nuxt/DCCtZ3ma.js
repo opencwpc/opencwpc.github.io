@@ -1,0 +1,1 @@
+import{Ql as a}from"./CC0V7cbc.js";var o=a("/download/frame-1.svg");export{o as t};

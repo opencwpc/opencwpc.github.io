@@ -1,0 +1,1 @@
+import{Kl as i,Mn as o}from"./CC0V7cbc.js";var t=i("position",()=>{const i=o({prefix:"position",defaultFixedWidth:300});return{...i,visible:i.visible,positionBoundingRect:i.boundingRect}});export{t};

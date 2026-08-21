@@ -1,0 +1,1 @@
+import{a as t}from"./AP4xXb4v.js";function o(){const{$api:o}=t();return o("/v2api/token/v1/stock/config",{method:"get"})}function n(o){const{$api:n}=t();return n("/v2api/token/v1/stock/list",{method:"get",query:o})}function e(){const{$api:o}=t();return o("/v2api/token/v1/stock/market_status",{method:"get"})}export{n,e as r,o as t};

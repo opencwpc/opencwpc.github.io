@@ -1,0 +1,1 @@
+import{Ql as a}from"./CC0V7cbc.js";var o=a("/icon-default.png");export{o as t};

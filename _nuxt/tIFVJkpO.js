@@ -1,0 +1,1 @@
+import{cr as s,di as r,t as d}from"./CC0V7cbc.js";function e(){const e=s(),n=d();return(e.address&&r(e.chain)?e.address:"")||n.evmAddress||""}function n(){const e=s(),n=d();return e.address&&r(e.chain)?e.address:n.evmAddress||""}function a(){const r=s(),e=d();return!r.address&&!!e.evmAddress&&!!e.accessToken}export{e as n,a as r,n as t};

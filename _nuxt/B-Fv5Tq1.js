@@ -1,0 +1,1 @@
+import{t as o}from"./BvtEfvCT.js";function i(i,t,r){return void 0===r&&(r=t,t=void 0),void 0!==r&&(r=(r=o(r))==r?r:0),void 0!==t&&(t=(t=o(t))==t?t:0),function(o,i,t){return o==o&&(void 0!==t&&(o=o<=t?o:t),void 0!==i&&(o=o>=i?o:i)),o}(o(i),t,r)}export{i as t};

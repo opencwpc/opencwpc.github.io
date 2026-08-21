@@ -1,0 +1,1 @@
+import{V as s,Y as t,_t as a,tt as o}from"./AP4xXb4v.js";import{t as r}from"./ChSDrkWF2.js";o();var m=t({__name:"index",setup:t=>(t,o)=>(a(),s(r,{"is-monitor":!0}))});export{m as default};

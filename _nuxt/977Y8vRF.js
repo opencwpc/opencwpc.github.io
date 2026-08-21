@@ -1,0 +1,1 @@
+import"./DEGIeJXX.js";var t=globalThis.setInterval;export{t};
