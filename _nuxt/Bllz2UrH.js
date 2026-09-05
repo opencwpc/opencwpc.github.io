@@ -1,0 +1,1 @@
+import{o as s}from"./DBv7LYnD.js";var a=()=>(window?.__NUXT__?.config||window?.useNuxtApp?.().payload?.config).app,o=()=>a().baseURL,i=(...o)=>s(t(),a().buildAssetsDir,...o),t=(...o)=>{const i=a(),t=i.cdnURL||i.baseURL;return o.length?s(t,...o):t};globalThis.__buildAssetsURL=i,globalThis.__publicAssetsURL=t;export{i as n,t as r,o as t};

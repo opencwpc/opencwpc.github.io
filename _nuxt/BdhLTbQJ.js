@@ -1,0 +1,1 @@
+var n=new Set;function e(){if("undefined"==typeof document)return;const e=document.getElementById("tv_chart_container_l");e&&(e.style.pointerEvents=n.size?"none":"")}function t(t){n.add(t),e()}function o(t){n.delete(t),e()}function c(){n.clear(),e()}export{c as n,o as r,t};

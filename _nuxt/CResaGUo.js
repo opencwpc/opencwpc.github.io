@@ -1,0 +1,1 @@
+import{Rt as t,Xt as a,jt as s,qt as r,tt as i}from"./DDNkh4e6.js";import{p as e}from"./BrR2gc9L.js";t(),i();var m=a(null),n=a(""),o=a("");function u(){const t=e(),a=r(!1);return s([()=>t.name,n],([t,s])=>{("hyperliquid-id"===t||s)&&(a.value=!0)},{immediate:!0}),{mounted:a}}export{u as i,n,m as r,o as t};

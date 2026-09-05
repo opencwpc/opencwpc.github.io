@@ -1,0 +1,1 @@
+import"./Bllz2UrH.js";var r=""+new URL("big.vTnZX_gh.svg",import.meta.url).href;export{r as default};
