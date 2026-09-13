@@ -1,0 +1,1 @@
+import{T as r,tt as s,z as a}from"./Bnlf17uC.js";import{t as o}from"./CDABho1m.js";import{t}from"./DgLP3hnZ.js";a();var e=Object.assign(t({},[["render",function(a,t){const e=o;return s(),r(e,{name:"material-symbols:arrow-drop-down-rounded",class:"scale-130"})}]]),{__name:"SignalSelectIcon"});export{e as t};

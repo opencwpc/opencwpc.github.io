@@ -1,0 +1,1 @@
+import{Ma as i,da as a}from"./CxgIesO9.js";function n(n,t,r){var e=!0,o=!0;if("function"!=typeof n)throw new TypeError("Expected a function");return i(r)&&(e="leading"in r?!!r.leading:e,o="trailing"in r?!!r.trailing:o),a(n,t,{leading:e,maxWait:t,trailing:o})}export{n as t};
