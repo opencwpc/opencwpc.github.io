@@ -1,0 +1,1 @@
+import{P as a}from"./Dt9eMIbi.js";var e=e=>a?window.requestAnimationFrame(e):setTimeout(e,16),o=e=>a?window.cancelAnimationFrame(e):clearTimeout(e);export{e as n,o as t};

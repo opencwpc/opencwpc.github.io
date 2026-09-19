@@ -1,0 +1,1 @@
+import{r}from"./Bllz2UrH.js";var a=r("/download/frame-1.svg");export{a as t};

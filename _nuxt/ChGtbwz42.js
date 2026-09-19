@@ -1,0 +1,1 @@
+var s="wss://api.hyperliquid.xyz/ws",a="wss://api.hyperliquid.xyz/ws",l={ALL_MIDS:"allMids",L2_BOOK:"l2Book",L2:"l2",CANDLE:"candle",TRADES:"trades",BBO:"bbo",ACTIVE_ASSET_CTX:"activeAssetCtx",ALL_DEXS_ASSET_CTXS:"allDexsAssetCtxs"},e={KLINE:564},i="tv_resolution_hl";export{s as a,l as i,i as n,a as r,e as t};

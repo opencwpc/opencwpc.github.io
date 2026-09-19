@@ -1,0 +1,1 @@
+import{N as s,T as a,tt as t,z as o}from"./CkTjqy4P.js";import{t as r}from"./C4eNP9DZ.js";o();var m=s({__name:"index",setup:s=>(s,o)=>(t(),a(r,{"is-monitor":!1}))});export{m as default};
