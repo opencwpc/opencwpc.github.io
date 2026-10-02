@@ -1,0 +1,1 @@
+var e="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='currentColor'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M1.94995%206.3421H3.88679V10.7H1.94995V6.3421ZM8.7289%204.40526H10.6657V10.7H8.7289V4.40526ZM5.33942%201.5H7.27627V10.7H5.33942V1.5Z'%20fill='%23999999'/%3e%3c/svg%3e";export{e as default};
