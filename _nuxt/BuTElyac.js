@@ -1,0 +1,1 @@
+import{Ls as i,en as o}from"./DsQGk__t.js";var t=i("position",()=>{const i=o({prefix:"position",defaultFixedWidth:300});return{...i,visible:i.visible,positionBoundingRect:i.boundingRect}});export{t};

@@ -1,0 +1,120 @@
+/*
+ * TradingView iframe 的自定义样式（custom_css_url），token 页和合约页共用。
+ * iframe 读不到本站的 CSS 变量：背景引用的 --kline-chrome-bg 由两处 setIframeCssVar 注入（见 var.scss）。
+ *
+ * ⚠️ 必须放在 public、原样发布，**不能**挪进 assets 走 `?url` 引入：
+ * 2026-10-09 试过一次，构建后 Nuxt 把它当成了入口样式，index.html 里只链了它、
+ * 全站主样式丢了（整站裸奔）；css 压缩还会把颜色改写成别的写法。
+ * 破缓存靠查询参数：构建期按本文件内容算哈希注入 __TV_CUSTOM_CSS_VERSION__（见 nuxt.config.ts），
+ * 内容不变 URL 不变，内容一改 URL 立刻变 —— 和 vemachine.js 同一套做法。
+ *
+ * 查询参数只解决「新代码拿到旧样式」。如果这份样式的契约变了（依赖新代码注入的变量、
+ * 跟着 TV 升级换 class 名），还得换文件名、把旧文件留一个版本给发布时还在跑旧代码的页面
+ * （见 tv_custom_1.css 顶部的说明）。
+ */
+/* 默认浅色模式背景（不依赖主题类名） */
+:root {
+    --color-container-fill-primary-neutral-normal: transparent !important;
+    --color-container-fill-primary-neutral-light: transparent !important;
+    --tv-tool-widget-button-interactive-background-color: transparent !important;
+    --tv-color-platform-background: var(--kline-chrome-bg) !important;
+    --tv-color-pane-background: var(--kline-chrome-bg) !important;
+    --tv-color-pane-background-secondary: var(--kline-chrome-bg) !important;
+    --tv-color-toolbar-button-background-hover: transparent !important;
+    --tv-color-toolbar-button-background-secondary-hover: #24AE8F;
+    --tv-color-toolbar-button-background-expanded: var(--kline-chrome-bg) !important;
+    --tv-color-toolbar-button-text: #333333;
+    --tv-color-toolbar-button-text-hover: #333333;
+    --tv-color-toolbar-button-text-active: #286DFF;
+    --tv-color-toolbar-button-text-active-hover: #286DFF;
+    --tv-color-item-active-text: rgb(6, 6, 255);
+    --tv-color-toolbar-toggle-button-background-active: #37A6EF;
+    --tv-color-toolbar-toggle-button-background-active-hover: #37A6EF;
+}
+
+/* 深色模式覆盖 */
+.theme-dark:root,
+[data-theme="dark"]:root,
+[class*="dark"]:root {
+    --color-container-fill-primary-neutral-normal: transparent !important;
+    --color-container-fill-primary-neutral-light: transparent !important;
+    --tv-tool-widget-button-interactive-background-color: transparent !important;
+    --tv-color-platform-background: var(--kline-chrome-bg) !important;
+    --tv-color-pane-background: var(--kline-chrome-bg) !important;
+    --tv-color-pane-background-secondary: var(--kline-chrome-bg) !important;
+    --tv-color-toolbar-button-background-hover: transparent !important;
+    --tv-color-toolbar-button-background-secondary-hover: #24AE8F;
+    --tv-color-toolbar-button-background-expanded: var(--kline-chrome-bg) !important;
+    --tv-color-toolbar-button-text: #c8c7d8;
+    --tv-color-toolbar-button-text-hover: #ffffff;
+    --tv-color-toolbar-button-text-active: #286DFF;
+    --tv-color-toolbar-button-text-active-hover: rgba(90, 102, 249,0.7);
+    --tv-color-item-active-text: rgb(6, 255, 6);
+    --tv-color-toolbar-toggle-button-background-active: #5a66f9;
+    --tv-color-toolbar-toggle-button-background-active-hover: #5a66f9;
+}
+
+.customButton--jqJTfH5{
+   padding: 2px;
+}
+.value-nkSYIvDw {
+  font-size: 12px;
+}
+.toolbar-qqNP9X6e {
+  font-size: 12px;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  flex-wrap: nowrap !important;
+}
+.toolbar-qqNP9X6e::-webkit-scrollbar {
+  height: 0;
+  display: none;
+}
+.group-MBOVGQRI:nth-child(2) {
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family: 'DINPro-regular';
+  src: url('/fonts/DINPro-regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url("/fonts/Poppins-Regular.ttf") format(truetype);
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+4E00-9FFF;
+}
+
+html, body {
+  font-family: 'Poppins-regular', 'DINPro-regular', sans-serif;
+}
+.text-hF57_4zZ{
+  white-space: pre-line;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 10px 12px;
+}
+.chart-gui-wrapper img{
+  width: 20%
+}
+.wrap-n5bmFxyX{
+
+}
+.customButton-qqNP9X6e{
+  display: flex
+}
+.text-hF57_4zZ{
+  max-width: 300px !important
+}
+
+.chart-markup-table.pane.pane--cursor-default:has(.tooltip-eSLcXvvL) {
+  cursor: pointer;
+}
+
+.legendMainSourceWrapper-l31H9iuA .titlesWrapper-l31H9iuA {
+  pointer-events: none;
+}

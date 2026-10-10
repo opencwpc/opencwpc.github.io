@@ -1,0 +1,1 @@
+import"./Bllz2UrH.js";var r=""+new URL("holders.DSa5c055.svg",import.meta.url).href;export{r as default};
