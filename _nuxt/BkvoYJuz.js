@@ -1,0 +1,1 @@
+import{n as s}from"./fe0NePqv.js";var a,o=s(()=>{a=globalThis||self});export{o as n,a as t};

@@ -1,0 +1,1 @@
+import{Gs as e,an as i}from"./gGJmoyhd.js";var n=e("favToken",()=>{const e=i({prefix:"favToken",defaultFixedWidth:300});return{...e,visible:e.visible,favTokenBoundingRect:e.boundingRect}});export{n as t};

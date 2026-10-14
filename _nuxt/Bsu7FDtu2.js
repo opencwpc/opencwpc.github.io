@@ -1,0 +1,1 @@
+import"./Bllz2UrH.js";var a=""+new URL("wallet-icon.BEz-jIBi.svg",import.meta.url).href;export{a as default};

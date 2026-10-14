@@ -1,0 +1,1 @@
+import"./Bllz2UrH.js";var a=""+new URL("mag-chart.BihrHaHO.svg",import.meta.url).href;export{a as default};
